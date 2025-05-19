@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="sn_creatorstudio.basic_fulfiller" name="sn_creatorstudio.basic_fulfiller">13a86cffc76042102208c8d6f2c260a3</contains>
+        <role display_value="x_237456_catalog_0.agent" name="x_237456_catalog_0.agent">3991c0ea8361a6103d677fc6feaad3c9</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 04:55:57</sys_created_on>
+        <sys_id>0e9104ea8361a6103d677fc6feaad31a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_creatorstudio.basic_fulfiller.x_237456_catalog_0.agent</sys_name>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name>sys_user_role_contains_0e9104ea8361a6103d677fc6feaad31a</sys_update_name>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 04:55:57</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

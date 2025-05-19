@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Catalog Item Flow Tool Requests">7f9104ea8361a6103d677fc6feaad394</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_237456_catalog_0.agent" name="x_237456_catalog_0.agent">3991c0ea8361a6103d677fc6feaad3c9</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 04:56:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c0a148aa8361a6103d677fc6feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7f9104ea8361a6103d677fc6feaad394</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name>par_dashboard_permission_c0a148aa8361a6103d677fc6feaad357</sys_update_name>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 04:56:06</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

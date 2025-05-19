@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="999180ea8361a6103d677fc6feaad3f7" extends="sn_creatorstudio_task" label="Catalog Item Flow Tool Request" max_length="40" name="x_237456_catalog_0_request" type="collection"/>
+</database>

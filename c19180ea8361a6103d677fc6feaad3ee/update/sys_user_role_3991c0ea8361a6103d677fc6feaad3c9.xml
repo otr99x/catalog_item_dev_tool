@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Provides access to Catalog Item Flow Tool Request</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_237456_catalog_0.agent</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>agent</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 04:55:56</sys_created_on>
+        <sys_id>3991c0ea8361a6103d677fc6feaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_237456_catalog_0.agent</sys_name>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name>sys_user_role_3991c0ea8361a6103d677fc6feaad3c9</sys_update_name>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 04:55:56</sys_updated_on>
+    </sys_user_role>
+</record_update>

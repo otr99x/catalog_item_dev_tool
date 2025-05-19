@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_237456_catalog_0.Catalog Item Flow Tool Audience</api_name>
+        <description/>
+        <name>Catalog Item Flow Tool Audience</name>
+        <role_names/>
+        <roles name="x_237456_catalog_0.agent">3991c0ea8361a6103d677fc6feaad3c9</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 04:55:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8a9104ea8361a6103d677fc6feaad338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Catalog Item Flow Tool Audience</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name>sys_ux_applicability_8a9104ea8361a6103d677fc6feaad338</sys_update_name>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 04:55:57</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

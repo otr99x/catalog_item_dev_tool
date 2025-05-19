@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Catalog Item Flow Tool Requests">7f9104ea8361a6103d677fc6feaad394</dashboard>
+        <experience display_value="Request App Workspace">53ba520177d2311055f78f71ef5a99e8</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 04:56:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4ca144ea8361a6103d677fc6feaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name>par_dashboard_visibility_4ca144ea8361a6103d677fc6feaad39d</sys_update_name>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 04:56:05</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>
