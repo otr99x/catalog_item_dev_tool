@@ -1,0 +1,1815 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>load_configuration</internal_name>
+        <label_cache>[{"name":"{{action.req_item}}","label":"action➛req_item","type":"action","ref":"","reference_display":"Requested Item","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b233ef85-2b8b-456c-b4af-79c6028266ed].config_object}}","label":"step➛Script step➛config_object","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDdde3586644e1a6108a36d89acb1d2e40","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"cba6a857-c54b-40d3-a825-afda74077675"}}]</label_cache>
+        <master_snapshot>ca82d8e283e1a6103d677fc6feaad3b7</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Load Configuration</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:07:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b3f11ca283e1a6103d677fc6feaad3e1</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name>Load Configuration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_b3f11ca283e1a6103d677fc6feaad3e1</sys_update_name>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 08:03:48</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=b3f11ca283e1a6103d677fc6feaad3e1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b3f11ca283e1a6103d677fc6feaad3e1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>b3f11ca283e1a6103d677fc6feaad3e1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:50</sys_created_on>
+        <sys_id>9c8298e283e1a6103d677fc6feaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:50</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <variable display_value="Action Status">108298e283e1a6103d677fc6feaad3a9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>b3f11ca283e1a6103d677fc6feaad3e1</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:50</sys_created_on>
+        <sys_id>d88298e283e1a6103d677fc6feaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:50</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">1c8298e283e1a6103d677fc6feaad3ad</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b3f11ca283e1a6103d677fc6feaad3e1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>config_object</field>
+        <id>b3f11ca283e1a6103d677fc6feaad3e1</id>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:23:26</sys_created_on>
+        <sys_id>6795dce683e1a6103d677fc6feaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:23:26</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b3f11ca283e1a6103d677fc6feaad3e1</table>
+        <value>{{step[b233ef85-2b8b-456c-b4af-79c6028266ed].config_object}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>b3f11ca283e1a6103d677fc6feaad3e1</id>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:50</sys_created_on>
+        <sys_id>588298e283e1a6103d677fc6feaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b3f11ca283e1a6103d677fc6feaad3e1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>b3f11ca283e1a6103d677fc6feaad3e1</id>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:50</sys_created_on>
+        <sys_id>948298e283e1a6103d677fc6feaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b3f11ca283e1a6103d677fc6feaad3e1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=b3f11ca283e1a6103d677fc6feaad3e1^sys_idNOT IN548298e283e1a6103d677fc6feaad394"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Load Configuration">b3f11ca283e1a6103d677fc6feaad3e1</action>
+        <cid>b233ef85-2b8b-456c-b4af-79c6028266ed</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:49</sys_created_on>
+        <sys_id>548298e283e1a6103d677fc6feaad394</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:31:06</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=548298e283e1a6103d677fc6feaad394"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>548298e283e1a6103d677fc6feaad394</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:50</sys_created_on>
+        <sys_id>108298e283e1a6103d677fc6feaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:50</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>548298e283e1a6103d677fc6feaad394</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:50</sys_created_on>
+        <sys_id>588298e283e1a6103d677fc6feaad3a5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:31:06</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+// ... code ...&#13;
+    outputs.config_object = new CatItemFlowConfigurationLoader().load(inputs.req_item);&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=548298e283e1a6103d677fc6feaad394"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>548298e283e1a6103d677fc6feaad394</id>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:50</sys_created_on>
+        <sys_id>d48298e283e1a6103d677fc6feaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:50</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>req_item</field>
+        <id>548298e283e1a6103d677fc6feaad394</id>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:50</sys_created_on>
+        <sys_id>148298e283e1a6103d677fc6feaad3a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:50</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_548298e283e1a6103d677fc6feaad394</table>
+        <value>{{action.req_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>548298e283e1a6103d677fc6feaad394</id>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:50</sys_created_on>
+        <sys_id>9c8298e283e1a6103d677fc6feaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:50</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_548298e283e1a6103d677fc6feaad394^id=548298e283e1a6103d677fc6feaad394"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=548298e283e1a6103d677fc6feaad394"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=548298e283e1a6103d677fc6feaad394"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=548298e283e1a6103d677fc6feaad394^sys_idNOT IN148298e283e1a6103d677fc6feaad39a"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>req_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">548298e283e1a6103d677fc6feaad394</model>
+        <model_id>548298e283e1a6103d677fc6feaad394</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_548298e283e1a6103d677fc6feaad394</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:50</sys_created_on>
+        <sys_id>148298e283e1a6103d677fc6feaad39a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=548298e283e1a6103d677fc6feaad394^sys_idNOT INdde3586683e1a6103d677fc6feaad341"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDdde3586644e1a6108a36d89acb1d2e40</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>c19180ea8361a6103d677fc6feaad3ee</scope_name>
+        <serialized_content>{"FlowDesigner:FDdde3586644e1a6108a36d89acb1d2e40":{"subflow":"String","subflow.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"subflow\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"2704090a-bc27-438e-a09e-e0b08520ab0d\"}"},"flow_script_include":"String","flow_script_include.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"flow_script_include\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"22bc5b36-827f-4c07-82d5-9cd798ab8c4a\"}"},"config_sys_id":"String","config_sys_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"config_sys_id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0fad1f4f-0c74-4c28-8ad1-6c220572ba97\"}"}},"FlowDesigner:FDdde3586644e1a6108a36d89acb1d2e40.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"config_object\",\"mandatory\":\"false\",\"uiUniqueId\":\"cba6a857-c54b-40d3-a825-afda74077675\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDdde3586644e1a6108a36d89acb1d2e40\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:15:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>91e3586683e1a6103d677fc6feaad341</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 08:03:47</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDdde3586644e1a6108a36d89acb1d2e40,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=cba6a857-c54b-40d3-a825-afda74077675</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>config_object</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>config_object</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step">548298e283e1a6103d677fc6feaad394</model>
+        <model_id>548298e283e1a6103d677fc6feaad394</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_548298e283e1a6103d677fc6feaad394</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:15:55</sys_created_on>
+        <sys_id>dde3586683e1a6103d677fc6feaad341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:15:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=548298e283e1a6103d677fc6feaad394"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>config_object</element>
+        <help/>
+        <hint/>
+        <label>config_object</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_548298e283e1a6103d677fc6feaad394</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:15:55</sys_created_on>
+        <sys_id>15e3586683e1a6103d677fc6feaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:15:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=b3f11ca283e1a6103d677fc6feaad3e1^sys_idNOT IN8c8290e283e1a6103d677fc6feaad33c"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=a4658e36-266d-4b33-8369-a87b795f6fa3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sc_req_item</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>req_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>req_item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Load Configuration">b3f11ca283e1a6103d677fc6feaad3e1</model>
+        <model_id>b3f11ca283e1a6103d677fc6feaad3e1</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_b3f11ca283e1a6103d677fc6feaad3e1</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:49</sys_created_on>
+        <sys_id>8c8290e283e1a6103d677fc6feaad33c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8c8290e283e1a6103d677fc6feaad33c"/>
+    <sys_hub_action_output action="delete_multiple" query="model=b3f11ca283e1a6103d677fc6feaad3e1^sys_idNOT IN108298e283e1a6103d677fc6feaad3a9,1c8298e283e1a6103d677fc6feaad3ad,aa6164aa8325a6103d677fc6feaad3b3"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=317a4b09-a08a-4de8-ae11-fde2fb2bee38</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Load Configuration">b3f11ca283e1a6103d677fc6feaad3e1</model>
+        <model_id>b3f11ca283e1a6103d677fc6feaad3e1</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_b3f11ca283e1a6103d677fc6feaad3e1</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:50</sys_created_on>
+        <sys_id>108298e283e1a6103d677fc6feaad3a9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 07:14:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=108298e283e1a6103d677fc6feaad3a9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=108298e283e1a6103d677fc6feaad3a9"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=7e9bc239-9ea0-4e97-b9d5-57155b4f1da2,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Load Configuration">b3f11ca283e1a6103d677fc6feaad3e1</model>
+        <model_id>b3f11ca283e1a6103d677fc6feaad3e1</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_b3f11ca283e1a6103d677fc6feaad3e1</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:50</sys_created_on>
+        <sys_id>1c8298e283e1a6103d677fc6feaad3ad</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 08:03:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1c8298e283e1a6103d677fc6feaad3ad"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1c8298e283e1a6103d677fc6feaad3ad"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc7bffe47592d6a10fc27353133ae7660</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>c19180ea8361a6103d677fc6feaad3ee</scope_name>
+        <serialized_content>{"FlowDesigner:FDc7bffe47592d6a10fc27353133ae7660":{"subflow":"String","subflow.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"subflow\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"2704090a-bc27-438e-a09e-e0b08520ab0d\"}"},"flow_script_include":"String","flow_script_include.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"flow_script_include\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"22bc5b36-827f-4c07-82d5-9cd798ab8c4a\"}"},"config_sys_id":"String","config_sys_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"config_sys_id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0fad1f4f-0c74-4c28-8ad1-6c220572ba97\"}"}},"FlowDesigner:FDc7bffe47592d6a10fc27353133ae7660.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"b233ef85-2b8b-456c-b4af-79c6028266ed\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"config_object\",\"mandatory\":\"false\",\"uiUniqueId\":\"87bd98d1-e7b9-4541-8f44-d073b0108d3c\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc7bffe47592d6a10fc27353133ae7660\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"cba6a857-c54b-40d3-a825-afda74077675\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 08:03:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8bbffe47832d6a103d677fc6feaad360</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 08:03:47</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDc7bffe47592d6a10fc27353133ae7660,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=b233ef85-2b8b-456c-b4af-79c6028266ed,sourceType=step,sourceUiUniqueId=cba6a857-c54b-40d3-a825-afda74077675,uiType=object,uiTypeLabel=Object,uiUniqueId=87bd98d1-e7b9-4541-8f44-d073b0108d3c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>config_object</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>config_object</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Load Configuration">b3f11ca283e1a6103d677fc6feaad3e1</model>
+        <model_id>b3f11ca283e1a6103d677fc6feaad3e1</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_b3f11ca283e1a6103d677fc6feaad3e1</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 07:14:59</sys_created_on>
+        <sys_id>aa6164aa8325a6103d677fc6feaad3b3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 08:03:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=aa6164aa8325a6103d677fc6feaad3b3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aa6164aa8325a6103d677fc6feaad3b3"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b3f11ca283e1a6103d677fc6feaad3e1"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=b3f11ca283e1a6103d677fc6feaad3e1^sys_idNOT INd08298e283e1a6103d677fc6feaad3b9"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Load Configuration">b3f11ca283e1a6103d677fc6feaad3e1</action_type_id>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:50</sys_created_on>
+        <sys_id>d08298e283e1a6103d677fc6feaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:50</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=d08298e283e1a6103d677fc6feaad3b9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>req_item</element>
+        <help/>
+        <hint/>
+        <label>req_item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_b3f11ca283e1a6103d677fc6feaad3e1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:49</sys_created_on>
+        <sys_id>0c8290e283e1a6103d677fc6feaad341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_b3f11ca283e1a6103d677fc6feaad3e1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_b3f11ca283e1a6103d677fc6feaad3e1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:50</sys_created_on>
+        <sys_id>108298e283e1a6103d677fc6feaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_b3f11ca283e1a6103d677fc6feaad3e1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:50</sys_created_on>
+        <sys_id>508298e283e1a6103d677fc6feaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>config_object</element>
+        <help/>
+        <hint/>
+        <label>config_object</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_b3f11ca283e1a6103d677fc6feaad3e1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 07:14:59</sys_created_on>
+        <sys_id>ee6164aa8325a6103d677fc6feaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 07:14:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_b3f11ca283e1a6103d677fc6feaad3e1"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=b3f11ca283e1a6103d677fc6feaad3e1^sys_idNOT IN9a821ce283e1a6103d677fc6feaad329"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Load Configuration">b3f11ca283e1a6103d677fc6feaad3e1</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"9a821ce283e1a6103d677fc6feaad329","name":"plan","plan_signature":null}}</plan>
+        <snapshot>51cf3287832d6a103d677fc6feaad3c1</snapshot>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9a821ce283e1a6103d677fc6feaad329</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 08:03:49</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>load_configuration</internal_name>
+        <label_cache>[{"name":"{{action.req_item}}","label":"action➛req_item","type":"action","ref":"","reference_display":"Requested Item","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b233ef85-2b8b-456c-b4af-79c6028266ed].config_object}}","label":"step➛Script step➛config_object","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDdde3586644e1a6108a36d89acb1d2e40","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"cba6a857-c54b-40d3-a825-afda74077675"}}]</label_cache>
+        <master>true</master>
+        <name>Load Configuration</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Load Configuration">b3f11ca283e1a6103d677fc6feaad3e1</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca82d8e283e1a6103d677fc6feaad3b7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:23:33</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca82d8e283e1a6103d677fc6feaad3b7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ca82d8e283e1a6103d677fc6feaad3b7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>ca82d8e283e1a6103d677fc6feaad3b7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:58</sys_created_on>
+        <sys_id>9682d8e283e1a6103d677fc6feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:58</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <variable display_value="Action Status">8682d8e283e1a6103d677fc6feaad3d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>ca82d8e283e1a6103d677fc6feaad3b7</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:58</sys_created_on>
+        <sys_id>d282d8e283e1a6103d677fc6feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">1282d8e283e1a6103d677fc6feaad3e5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ca82d8e283e1a6103d677fc6feaad3b7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>config_object</field>
+        <id>ca82d8e283e1a6103d677fc6feaad3b7</id>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:23:34</sys_created_on>
+        <sys_id>e5a5102a83e1a6103d677fc6feaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:23:34</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ca82d8e283e1a6103d677fc6feaad3b7</table>
+        <value>{{step[b233ef85-2b8b-456c-b4af-79c6028266ed].config_object}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>ca82d8e283e1a6103d677fc6feaad3b7</id>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:58</sys_created_on>
+        <sys_id>5282d8e283e1a6103d677fc6feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ca82d8e283e1a6103d677fc6feaad3b7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>ca82d8e283e1a6103d677fc6feaad3b7</id>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:58</sys_created_on>
+        <sys_id>9e82d8e283e1a6103d677fc6feaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ca82d8e283e1a6103d677fc6feaad3b7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=ca82d8e283e1a6103d677fc6feaad3b7^sys_idNOT INca82d8e283e1a6103d677fc6feaad3c3"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Load Configuration">ca82d8e283e1a6103d677fc6feaad3b7</action>
+        <cid>b233ef85-2b8b-456c-b4af-79c6028266ed</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:57</sys_created_on>
+        <sys_id>ca82d8e283e1a6103d677fc6feaad3c3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:31:27</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ca82d8e283e1a6103d677fc6feaad3c3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca82d8e283e1a6103d677fc6feaad3c3</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:58</sys_created_on>
+        <sys_id>4682d8e283e1a6103d677fc6feaad3d1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:31:27</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+// ... code ...&#13;
+    outputs.config_object = new CatItemFlowConfigurationLoader().load(inputs.req_item);&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca82d8e283e1a6103d677fc6feaad3c3</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:58</sys_created_on>
+        <sys_id>8282d8e283e1a6103d677fc6feaad3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:58</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ca82d8e283e1a6103d677fc6feaad3c3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ca82d8e283e1a6103d677fc6feaad3c3</id>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:58</sys_created_on>
+        <sys_id>4e82d8e283e1a6103d677fc6feaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>req_item</field>
+        <id>ca82d8e283e1a6103d677fc6feaad3c3</id>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:58</sys_created_on>
+        <sys_id>8e82d8e283e1a6103d677fc6feaad3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ca82d8e283e1a6103d677fc6feaad3c3</table>
+        <value>{{action.req_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>ca82d8e283e1a6103d677fc6feaad3c3</id>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:58</sys_created_on>
+        <sys_id>0282d8e283e1a6103d677fc6feaad3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_ca82d8e283e1a6103d677fc6feaad3c3^id=ca82d8e283e1a6103d677fc6feaad3c3"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=ca82d8e283e1a6103d677fc6feaad3c3"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca82d8e283e1a6103d677fc6feaad3c3"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ca82d8e283e1a6103d677fc6feaad3c3^sys_idNOT IN8a82d8e283e1a6103d677fc6feaad3c7"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>req_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>req_item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">ca82d8e283e1a6103d677fc6feaad3c3</model>
+        <model_id>ca82d8e283e1a6103d677fc6feaad3c3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_ca82d8e283e1a6103d677fc6feaad3c3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:57</sys_created_on>
+        <sys_id>8a82d8e283e1a6103d677fc6feaad3c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ca82d8e283e1a6103d677fc6feaad3c3^sys_idNOT IN8be3986683e1a6103d677fc6feaad388"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDcfe398669fe1a6108a039991e4d3ba87</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>c19180ea8361a6103d677fc6feaad3ee</scope_name>
+        <serialized_content>{"FlowDesigner:FDcfe398669fe1a6108a039991e4d3ba87":{"subflow":"String","subflow.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"subflow\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"2704090a-bc27-438e-a09e-e0b08520ab0d\"}"},"flow_script_include":"String","flow_script_include.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"flow_script_include\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"22bc5b36-827f-4c07-82d5-9cd798ab8c4a\"}"},"config_sys_id":"String","config_sys_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"config_sys_id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0fad1f4f-0c74-4c28-8ad1-6c220572ba97\"}"}},"FlowDesigner:FDcfe398669fe1a6108a039991e4d3ba87.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"config_object\",\"mandatory\":\"false\",\"uiUniqueId\":\"cba6a857-c54b-40d3-a825-afda74077675\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDcfe398669fe1a6108a039991e4d3ba87\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:16:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>83e3986683e1a6103d677fc6feaad388</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 08:03:48</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDcfe398669fe1a6108a039991e4d3ba87,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=cba6a857-c54b-40d3-a825-afda74077675</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>config_object</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>config_object</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step">ca82d8e283e1a6103d677fc6feaad3c3</model>
+        <model_id>ca82d8e283e1a6103d677fc6feaad3c3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ca82d8e283e1a6103d677fc6feaad3c3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:16:02</sys_created_on>
+        <sys_id>8be3986683e1a6103d677fc6feaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:16:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ca82d8e283e1a6103d677fc6feaad3c3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>config_object</element>
+        <help/>
+        <hint/>
+        <label>config_object</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_ca82d8e283e1a6103d677fc6feaad3c3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:16:02</sys_created_on>
+        <sys_id>c7e3986683e1a6103d677fc6feaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:16:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=ca82d8e283e1a6103d677fc6feaad3b7^sys_idNOT IN0e82d8e283e1a6103d677fc6feaad3ba"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=a4658e36-266d-4b33-8369-a87b795f6fa3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sc_req_item</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>req_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>req_item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Load Configuration">ca82d8e283e1a6103d677fc6feaad3b7</model>
+        <model_id>ca82d8e283e1a6103d677fc6feaad3b7</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_ca82d8e283e1a6103d677fc6feaad3b7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:57</sys_created_on>
+        <sys_id>0e82d8e283e1a6103d677fc6feaad3ba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0e82d8e283e1a6103d677fc6feaad3ba"/>
+    <sys_hub_action_output action="delete_multiple" query="model=ca82d8e283e1a6103d677fc6feaad3b7^sys_idNOT IN1282d8e283e1a6103d677fc6feaad3e5,25a5102a83e1a6103d677fc6feaad345,8682d8e283e1a6103d677fc6feaad3d4"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=7e9bc239-9ea0-4e97-b9d5-57155b4f1da2,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Load Configuration">ca82d8e283e1a6103d677fc6feaad3b7</model>
+        <model_id>ca82d8e283e1a6103d677fc6feaad3b7</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ca82d8e283e1a6103d677fc6feaad3b7</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:58</sys_created_on>
+        <sys_id>1282d8e283e1a6103d677fc6feaad3e5</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 08:03:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1282d8e283e1a6103d677fc6feaad3e5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1282d8e283e1a6103d677fc6feaad3e5"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDe1a5102a6ce1a610334293ae5edcdc43</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>c19180ea8361a6103d677fc6feaad3ee</scope_name>
+        <serialized_content>{"FlowDesigner:FDe1a5102a6ce1a610334293ae5edcdc43":{"subflow":"String","subflow.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"subflow\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"2704090a-bc27-438e-a09e-e0b08520ab0d\"}"},"flow_script_include":"String","flow_script_include.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"flow_script_include\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"22bc5b36-827f-4c07-82d5-9cd798ab8c4a\"}"},"config_sys_id":"String","config_sys_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"config_sys_id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0fad1f4f-0c74-4c28-8ad1-6c220572ba97\"}"}},"FlowDesigner:FDe1a5102a6ce1a610334293ae5edcdc43.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"b233ef85-2b8b-456c-b4af-79c6028266ed\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"config_object\",\"mandatory\":\"false\",\"uiUniqueId\":\"87bd98d1-e7b9-4541-8f44-d073b0108d3c\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDe1a5102a6ce1a610334293ae5edcdc43\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"cba6a857-c54b-40d3-a825-afda74077675\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:23:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5a5102a83e1a6103d677fc6feaad343</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 08:03:48</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDe1a5102a6ce1a610334293ae5edcdc43,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=b233ef85-2b8b-456c-b4af-79c6028266ed,sourceType=step,sourceUiUniqueId=cba6a857-c54b-40d3-a825-afda74077675,uiType=object,uiTypeLabel=Object,uiUniqueId=87bd98d1-e7b9-4541-8f44-d073b0108d3c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>config_object</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>config_object</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Load Configuration">ca82d8e283e1a6103d677fc6feaad3b7</model>
+        <model_id>ca82d8e283e1a6103d677fc6feaad3b7</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ca82d8e283e1a6103d677fc6feaad3b7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:23:34</sys_created_on>
+        <sys_id>25a5102a83e1a6103d677fc6feaad345</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 08:03:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=25a5102a83e1a6103d677fc6feaad345"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=25a5102a83e1a6103d677fc6feaad345"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=317a4b09-a08a-4de8-ae11-fde2fb2bee38</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Load Configuration">ca82d8e283e1a6103d677fc6feaad3b7</model>
+        <model_id>ca82d8e283e1a6103d677fc6feaad3b7</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ca82d8e283e1a6103d677fc6feaad3b7</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:58</sys_created_on>
+        <sys_id>8682d8e283e1a6103d677fc6feaad3d4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 07:15:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8682d8e283e1a6103d677fc6feaad3d4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8682d8e283e1a6103d677fc6feaad3d4"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ca82d8e283e1a6103d677fc6feaad3b7"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=ca82d8e283e1a6103d677fc6feaad3b7^sys_idNOT INda82d8e283e1a6103d677fc6feaad3ef"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Load Configuration">ca82d8e283e1a6103d677fc6feaad3b7</action_type_id>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:58</sys_created_on>
+        <sys_id>da82d8e283e1a6103d677fc6feaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:58</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=da82d8e283e1a6103d677fc6feaad3ef"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>req_item</element>
+        <help/>
+        <hint/>
+        <label>req_item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_ca82d8e283e1a6103d677fc6feaad3b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:57</sys_created_on>
+        <sys_id>0282d8e283e1a6103d677fc6feaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_ca82d8e283e1a6103d677fc6feaad3b7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>config_object</element>
+        <help/>
+        <hint/>
+        <label>config_object</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ca82d8e283e1a6103d677fc6feaad3b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:23:34</sys_created_on>
+        <sys_id>29a5102a83e1a6103d677fc6feaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:23:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ca82d8e283e1a6103d677fc6feaad3b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:58</sys_created_on>
+        <sys_id>5682d8e283e1a6103d677fc6feaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ca82d8e283e1a6103d677fc6feaad3b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:09:58</sys_created_on>
+        <sys_id>9a82d8e283e1a6103d677fc6feaad3e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:09:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_ca82d8e283e1a6103d677fc6feaad3b7"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>b3f11ca283e1a6103d677fc6feaad3e1</sys_id>
+        <latest_snapshot>ca82d8e283e1a6103d677fc6feaad3b7</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch2-03-20-2025_04-02-2025_0516.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

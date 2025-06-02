@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>users</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-20 19:39:25</sys_created_on>
+        <sys_id>c655588383ad2a103d677fc6feaad365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>users</sys_name>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c655588383ad2a103d677fc6feaad365</sys_update_name>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-20 19:39:25</sys_updated_on>
+        <table>x_237456_catalog_0_cat_item_flow_approval_config</table>
+        <ui_policy display_value="User Approval selection">6c35548383ad2a103d677fc6feaad391</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_237456_catalog_0.CatItemFlowConfigurationLoader</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CatItemFlowConfigurationLoader</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CatItemFlowConfigurationLoader = Class.create();
+CatItemFlowConfigurationLoader.prototype = {
+    initialize: function() {
+    },
+
+    type: 'CatItemFlowConfigurationLoader',
+
+	load: function(req_item){
+		var result = {};
+		var parentConfig = this._getParentConfig(req_item.cat_item.toString());
+		if(parentConfig){
+			result.config_sys_id = parentConfig.sys_id.toString();
+			result.subflow = parentConfig.sub_flow.toString();
+			result.flow_script_include = parentConfig.flow_script_include.toString();
+		}
+		else{
+			result.config_sys_id = '';
+			result.subflow = '';
+			result.flow_script_include = '';
+		}
+		return result;
+	},
+	_getParentConfig: function(cat_item){
+		var gr = new GlideRecord('x_237456_catalog_0_cat_item_flow_config');
+		gr.addQuery('catalog_item', cat_item);
+		gr.addQuery('active', true);
+		gr.query();
+		if(gr.next())
+			return gr;
+	}
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-19 06:19:27</sys_created_on>
+        <sys_id>05045c6683e1a6103d677fc6feaad334</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>CatItemFlowConfigurationLoader</sys_name>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name>sys_script_include_05045c6683e1a6103d677fc6feaad334</sys_update_name>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 08:01:30</sys_updated_on>
+    </sys_script_include>
+</record_update>

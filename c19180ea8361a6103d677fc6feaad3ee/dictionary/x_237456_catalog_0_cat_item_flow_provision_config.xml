@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d80a6a4683756e103d677fc6feaad305" label="Cat Item Flow Provision Config" max_length="40" name="x_237456_catalog_0_cat_item_flow_provision_config" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Cat Item Flow Config" max_length="32" name="cat_item_flow_config" read_only="true" reference="x_237456_catalog_0_cat_item_flow_config" type="reference"/>
+        <element label="Failure Task Step" max_length="40" name="failure_task_step" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Provisioned To" max_length="100" name="provisioned_to" type="string"/>
+        <element label="Step" max_length="40" name="step" type="integer"/>
+        <element label="Success Task Step" max_length="40" name="success_task_step" type="integer"/>
+        <index name="index">
+            <element name="cat_item_flow_config"/>
+        </index>
+    </element>
+</database>

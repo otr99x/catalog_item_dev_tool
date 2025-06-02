@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_237456_catalog_0.CatalogItemFlowScript_1afed4a68325a6103d677fc6feaad316</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CatalogItemFlowScript_1afed4a68325a6103d677fc6feaad316</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CatalogItemFlowScript_1afed4a68325a6103d677fc6feaad316 = Class.create();
+CatalogItemFlowScript_1afed4a68325a6103d677fc6feaad316.prototype = {
+    initialize: function(scopeThis) {
+		this.scopeThis = scopeThis;
+    },
+
+    type: 'CatalogItemFlowScript_1afed4a68325a6103d677fc6feaad316',
+	getData: function(data){
+		return data;
+	},
+	generateScriptedApprovalByStep: function(req_item, config_sys_id, step){
+		var result = {
+			users: [],
+			groups: []
+		};
+
+		// get all the approval config records for this step
+		var gr = new GlideRecord('x_237456_catalog_0_cat_item_flow_approval_config');
+		gr.addQuery('active', true);
+		gr.addQuery('cat_item_flow_config', config_sys_id);
+		gr.addQuery('step', step);
+		gr.query();
+		while(gr.next())
+			this._getApprovers(req_item, gr, result);
+
+		var scriptedApprovalString = '';
+		if(result.users.length > 0){
+			scriptedApprovalString = 'ApprovesRejectsAnyU[' + result.users.join(',') + ']';
+			if(result.groups.length > 0)
+				scriptedApprovalString += 'G[' + result.groups.join(',') + ']';
+		}else if(result.groups.length > 0)
+		{
+			scriptedApprovalString = 'ApprovesRejectsAnyG[' + result.groups.join(',') + ']';
+		}
+		return scriptedApprovalString;
+	},
+	_getApprovers: function(req_item, approvalConfigGR, result){
+		if(approvalConfigGR.user_approval)
+		{
+			var users = approvalConfigGR.users.split(',');
+			result.users = result.users.concat(users);
+		}
+
+		if(approvalConfigGR.group_approval)
+		{
+			var groups = approvalConfigGR.groups.split(',');
+			result.groups = result.groups.concat(groups);
+		}
+
+		if(approvalConfigGR.catalog_item_owner)
+		{
+			result.users.push(req_item.cat_item.owner.toString());
+		}
+
+		if(approvalConfigGR.user_group_by_script){
+			var tokens = approvalConfigGR.user_group_by_script_include_function.split('.');
+			var scriptToRun = new this.scopeThis[tokens[0]]();
+			var scriptusers = scriptToRun[tokens[1]](req_item);
+			result.users = result.users.concat(scriptusers);
+		}
+
+	}
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 18:29:09</sys_created_on>
+        <sys_id>7ede091b8329aa103d677fc6feaad375</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>CatalogItemFlowScript_1afed4a68325a6103d677fc6feaad316</sys_name>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name>sys_script_include_7ede091b8329aa103d677fc6feaad375</sys_update_name>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 23:01:54</sys_updated_on>
+    </sys_script_include>
+</record_update>

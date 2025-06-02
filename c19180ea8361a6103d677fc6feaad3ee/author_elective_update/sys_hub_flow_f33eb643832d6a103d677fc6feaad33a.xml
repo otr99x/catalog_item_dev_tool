@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=8779000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>createapprovalsforstep</internal_name>
+        <label_cache>[{"name":"subflow.config_object.config_sys_id","label":"Input➛config_object➛config_sys_id","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e9c0ee9a-e934-4414-aa52-962d6540733d":["log_message"],"5cc4578f-93ff-4841-bdc7-9e386fda39f0":["conditions"]},"attributes":{"uiUniqueId":"2c5419a7-ef1c-4255-94b5-3bf64a9ad9ea","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.config_object.subflow","label":"Input➛config_object➛subflow","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e9c0ee9a-e934-4414-aa52-962d6540733d":["log_message"]},"attributes":{"uiUniqueId":"288b673f-ebc5-4d6a-a5d9-f2d26ff469c1","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.config_object.flow_script_include","label":"Input➛config_object➛flow_script_include","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e9c0ee9a-e934-4414-aa52-962d6540733d":["log_message"]},"attributes":{"uiUniqueId":"e59f2512-0175-4ad4-9358-2aa0d2943c9c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.step","label":"Input➛step","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"1322ed0b-9b71-4abe-80ca-f2e6d6d7eb37":["log_message"],"8ac105c1-00cf-4481-88f9-2c52f418a9f3":["log_message"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e21ef341-814a-4664-b49d-2fa642745a75","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <master_snapshot>6d324b4b832d6a103d677fc6feaad333</master_snapshot>
+        <master_snapshot_digest/>
+        <name>CreateApprovalsForStep</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 07:57:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f33eb643832d6a103d677fc6feaad33a</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>CreateApprovalsForStep</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name>sys_hub_flow_f33eb643832d6a103d677fc6feaad33a</sys_update_name>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 10:23:29</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=f33eb643832d6a103d677fc6feaad33a"/>
+    <sys_variable_value action="DELETE" query="document_key=f33eb643832d6a103d677fc6feaad33a"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=f33eb643832d6a103d677fc6feaad33a"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=f33eb643832d6a103d677fc6feaad33a^sys_idNOT INff3eb643832d6a103d677fc6feaad33a"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>f33eb643832d6a103d677fc6feaad33a</id>
+        <name>CreateApprovalsForStep</name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 07:57:09</sys_created_on>
+        <sys_id>ff3eb643832d6a103d677fc6feaad33a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 07:57:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=ff3eb643832d6a103d677fc6feaad33a"/>
+    <sys_hub_flow_input action="DELETE" query="model=f33eb643832d6a103d677fc6feaad33a^sys_idNOT IN29ce3a07832d6a103d677fc6feaad37d,95ce3a07832d6a103d677fc6feaad379,d4afdb4783ed6a103d677fc6feaad392"/>
+    <sys_complex_object action="DELETE">
+        <label/>
+        <name>FD19cebe033a2d6a10d8eda66b626987c0</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>c19180ea8361a6103d677fc6feaad3ee</scope_name>
+        <serialized_content>{"FlowDesigner:FD19cebe033a2d6a10d8eda66b626987c0":{"subflow":"String","subflow.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"subflow\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"flow_script_include":"String","flow_script_include.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"flow_script_include\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"config_sys_id":"String","config_sys_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"config_sys_id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD19cebe033a2d6a10d8eda66b626987c0.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"config_object\",\"mandatory\":\"false\",\"uiUniqueId\":\"603556c2-c762-4639-a2ee-b54069a27acd\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD19cebe033a2d6a10d8eda66b626987c0\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 07:59:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d9cebe03832d6a103d677fc6feaad3c0</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 10:23:28</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD19cebe033a2d6a10d8eda66b626987c0,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=603556c2-c762-4639-a2ee-b54069a27acd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>config_object</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>config_object</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="CreateApprovalsForStep">f33eb643832d6a103d677fc6feaad33a</model>
+        <model_id>f33eb643832d6a103d677fc6feaad33a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f33eb643832d6a103d677fc6feaad33a</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 07:59:27</sys_created_on>
+        <sys_id>29ce3a07832d6a103d677fc6feaad37d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 10:23:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=29ce3a07832d6a103d677fc6feaad37d"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=035687fd-5f0b-4d12-9a0a-7b4d0a370934</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sc_req_item</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>req_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>req_item</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="CreateApprovalsForStep">f33eb643832d6a103d677fc6feaad33a</model>
+        <model_id>f33eb643832d6a103d677fc6feaad33a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f33eb643832d6a103d677fc6feaad33a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 07:59:27</sys_created_on>
+        <sys_id>95ce3a07832d6a103d677fc6feaad379</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 10:23:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=95ce3a07832d6a103d677fc6feaad379"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e21ef341-814a-4664-b49d-2fa642745a75</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>step</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>step</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="CreateApprovalsForStep">f33eb643832d6a103d677fc6feaad33a</model>
+        <model_id>f33eb643832d6a103d677fc6feaad33a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f33eb643832d6a103d677fc6feaad33a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 10:23:00</sys_created_on>
+        <sys_id>d4afdb4783ed6a103d677fc6feaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 10:23:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=d4afdb4783ed6a103d677fc6feaad392"/>
+    <sys_hub_flow_output action="DELETE" query="model=f33eb643832d6a103d677fc6feaad33a"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=f33eb643832d6a103d677fc6feaad33a"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=f33eb643832d6a103d677fc6feaad33a"/>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=f33eb643832d6a103d677fc6feaad33a^sys_idNOT IN71bf578783ed6a103d677fc6feaad362"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="CreateApprovalsForStep">f33eb643832d6a103d677fc6feaad33a</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 10:23:23</sys_created_on>
+        <sys_id>71bf578783ed6a103d677fc6feaad362</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 10:23:28</sys_updated_on>
+        <ui_id>8ac105c1-00cf-4481-88f9-2c52f418a9f3</ui_id>
+        <values>H4sIAAAAAAAA/91U0WrbMBT9laLnxNhxva55G+0Kg7WFFbKHUowsXycCWfIkOWlm8u+7smXHzUJJyp4GfrlHR1fnXB3ruSE8J3OSZCzKGPuUxFEYxvhlRZRfR+E1sOTzVX5FJkTSEpAp1DIVsAaB0JqK2mFcFgrLnJtK0O3Co986lK24yDVIMn9+mZCKauxjQZN5c7BktxWkgmbYek5uVoozwO2nyus3fvfajsh1ByDE+tZK505HOCHwakHmgEcVVBiYkJLKnFqltwOigeaPUuyBFZcWuxFHfjX8N7a+DB2vALTEoFsbytRPp4M7DQaNN4Py6fTiQUm4mE5Hox3J3E32XD/bgwvwzGjM/Em15HI5Im8Q2ZNnY/JXrZUeUcHXnhvv8JpyKGgt7M35DqKTHczOcRCf4eDSOeiG/1hZrjB6JHLRoJnwYpkSdSkfuviQwe/iIOsdens08rXB64bKRcplxAemeFqpzY8+D3dctor8olCMiqGi1mqe1dbNtyEgoMRGaUmrCgeRVlqtebsZxZbBUmARFEJt8FDDlzKgzFkLMME0uEP8toUXVHNn8x7b4OZdG870V+3O7Yx6xWk7FkcwTPPKfsF2a/Di3LDbf3IWv/dPQvL2HyzBGLqE0c00jakzpzowFqrd7u8H5AjjY4/JE06zDdCpwvuN94Pqo1b8g2L69n3O/9mDMkuS816UIdRnZfp/j+zLHwrRqjTnBgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=f33eb643832d6a103d677fc6feaad33a"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=f33eb643832d6a103d677fc6feaad33a"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=f33eb643832d6a103d677fc6feaad33a"/>
+    <sys_hub_flow_variable action="DELETE" query="model=f33eb643832d6a103d677fc6feaad33a"/>
+    <sys_documentation action="DELETE">
+        <element>config_object</element>
+        <help/>
+        <hint/>
+        <label>config_object</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f33eb643832d6a103d677fc6feaad33a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 07:59:27</sys_created_on>
+        <sys_id>a9ce3a07832d6a103d677fc6feaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 07:59:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>step</element>
+        <help/>
+        <hint/>
+        <label>step</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f33eb643832d6a103d677fc6feaad33a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 10:23:00</sys_created_on>
+        <sys_id>dcafdb4783ed6a103d677fc6feaad394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 10:23:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>req_item</element>
+        <help/>
+        <hint/>
+        <label>req_item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f33eb643832d6a103d677fc6feaad33a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 07:59:27</sys_created_on>
+        <sys_id>e9ce3a07832d6a103d677fc6feaad37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 07:59:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_f33eb643832d6a103d677fc6feaad33a"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_f33eb643832d6a103d677fc6feaad33a"/>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>createapprovalsforstep</internal_name>
+        <label_cache>[{"name":"subflow.config_object.config_sys_id","label":"Input➛config_object➛config_sys_id","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e9c0ee9a-e934-4414-aa52-962d6540733d":["log_message"],"5cc4578f-93ff-4841-bdc7-9e386fda39f0":["conditions"]},"attributes":{"uiUniqueId":"2c5419a7-ef1c-4255-94b5-3bf64a9ad9ea","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.config_object.subflow","label":"Input➛config_object➛subflow","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e9c0ee9a-e934-4414-aa52-962d6540733d":["log_message"]},"attributes":{"uiUniqueId":"288b673f-ebc5-4d6a-a5d9-f2d26ff469c1","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.config_object.flow_script_include","label":"Input➛config_object➛flow_script_include","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e9c0ee9a-e934-4414-aa52-962d6540733d":["log_message"]},"attributes":{"uiUniqueId":"e59f2512-0175-4ad4-9358-2aa0d2943c9c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.step","label":"Input➛step","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"1322ed0b-9b71-4abe-80ca-f2e6d6d7eb37":["log_message"],"8ac105c1-00cf-4481-88f9-2c52f418a9f3":["log_message"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e21ef341-814a-4664-b49d-2fa642745a75","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <master>true</master>
+        <name>CreateApprovalsForStep</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="CreateApprovalsForStep">f33eb643832d6a103d677fc6feaad33a</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 08:14:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6d324b4b832d6a103d677fc6feaad333</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 10:23:29</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=6d324b4b832d6a103d677fc6feaad333"/>
+    <sys_variable_value action="DELETE" query="document_key=6d324b4b832d6a103d677fc6feaad333"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=6d324b4b832d6a103d677fc6feaad333"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=6d324b4b832d6a103d677fc6feaad333^sys_idNOT IN65324b4b832d6a103d677fc6feaad334"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>6d324b4b832d6a103d677fc6feaad333</id>
+        <name>CreateApprovalsForStep</name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 08:14:28</sys_created_on>
+        <sys_id>65324b4b832d6a103d677fc6feaad334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 08:14:28</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=65324b4b832d6a103d677fc6feaad334"/>
+    <sys_hub_flow_input action="DELETE" query="model=6d324b4b832d6a103d677fc6feaad333^sys_idNOT IN17bf978783ed6a103d677fc6feaad367,29324b4b832d6a103d677fc6feaad342,e9324b4b832d6a103d677fc6feaad335"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e21ef341-814a-4664-b49d-2fa642745a75</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>step</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>step</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="CreateApprovalsForStep">6d324b4b832d6a103d677fc6feaad333</model>
+        <model_id>6d324b4b832d6a103d677fc6feaad333</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_6d324b4b832d6a103d677fc6feaad333</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 10:23:29</sys_created_on>
+        <sys_id>17bf978783ed6a103d677fc6feaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 10:23:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=17bf978783ed6a103d677fc6feaad367"/>
+    <sys_complex_object action="DELETE">
+        <label/>
+        <name>FDad324b4bc32d6a10b0cfc2b133057934</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>c19180ea8361a6103d677fc6feaad3ee</scope_name>
+        <serialized_content>{"FlowDesigner:FDad324b4bc32d6a10b0cfc2b133057934":{"subflow":"String","subflow.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"subflow\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"flow_script_include":"String","flow_script_include.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"flow_script_include\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"config_sys_id":"String","config_sys_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"config_sys_id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FDad324b4bc32d6a10b0cfc2b133057934.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"config_object\",\"mandatory\":\"false\",\"uiUniqueId\":\"603556c2-c762-4639-a2ee-b54069a27acd\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDad324b4bc32d6a10b0cfc2b133057934\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 08:14:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>61324b4b832d6a103d677fc6feaad335</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 10:23:29</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDad324b4bc32d6a10b0cfc2b133057934,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=603556c2-c762-4639-a2ee-b54069a27acd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>config_object</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>config_object</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="CreateApprovalsForStep">6d324b4b832d6a103d677fc6feaad333</model>
+        <model_id>6d324b4b832d6a103d677fc6feaad333</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_6d324b4b832d6a103d677fc6feaad333</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 08:14:28</sys_created_on>
+        <sys_id>29324b4b832d6a103d677fc6feaad342</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 10:23:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=29324b4b832d6a103d677fc6feaad342"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=035687fd-5f0b-4d12-9a0a-7b4d0a370934</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sc_req_item</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>req_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>req_item</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="CreateApprovalsForStep">6d324b4b832d6a103d677fc6feaad333</model>
+        <model_id>6d324b4b832d6a103d677fc6feaad333</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_6d324b4b832d6a103d677fc6feaad333</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 08:14:28</sys_created_on>
+        <sys_id>e9324b4b832d6a103d677fc6feaad335</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 10:23:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=e9324b4b832d6a103d677fc6feaad335"/>
+    <sys_hub_flow_output action="DELETE" query="model=6d324b4b832d6a103d677fc6feaad333"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=6d324b4b832d6a103d677fc6feaad333"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=6d324b4b832d6a103d677fc6feaad333"/>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=6d324b4b832d6a103d677fc6feaad333^sys_idNOT IN1fbf978783ed6a103d677fc6feaad382"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CreateApprovalsForStep">6d324b4b832d6a103d677fc6feaad333</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 10:23:29</sys_created_on>
+        <sys_id>1fbf978783ed6a103d677fc6feaad382</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 10:23:29</sys_updated_on>
+        <ui_id>8ac105c1-00cf-4481-88f9-2c52f418a9f3</ui_id>
+        <values>H4sIAAAAAAAA/+VUXWvbMBT9K0XPjomTel3zNpIVBv2ABbqHUowsXycCWfIkOWlm8t93ZcuOm4aRQN8GfrnHR9I5V+fqpSY8IzMSpyxKGfsST6PxeIpfmkfZbTS+BRZ/vcluSEAkLQCZQq0SARsQCG2oqBzGZa6wzLgpBd09e/RHi7I1F5kGSWYvrwEpqcZ9LGgyq49+nStE0BRPn5F7r+KEMLsrHcTWijPw9b1fNu9ApTMnYxwQeLMgM8DzcyoMBKSgMqNW6V2PaKDZkxQHYM2lxd2II78Z/gfPux47Xg7oiEH7ry8T35wWzhfU0qXVFbOV9tRWrMFe1L3F0ejqUUm4Go0G3R5I3wcHrm/30Z14ZjRk/qJacrkakLeIHMiTIfm71koPqOBrz53u8eYyyGkl7PxyB9HZDiaXOJhe4ODaOWib/1RarjCNJHKZoanorkaJqpCPbc5I7/f5KP4tujg5BZXBCEDpYuZy40OUL9dq+7PLyB2XjSL/UyhGRV9RazVPK+v6WxMQUOBGSUHLEhuRlFpteLMYxRbhSmAR5kJt8VDDVzKkzFkLMdU0vEN80cDPVHNn8wG3wcX7gJidmQtqzMEsRjj5XTklrXXvIWka1Sxhmpf2Gx6wAS/Xtb8Z58n0X+MM8fvxLcAYuoLBXdW1qVLnIzQWyv3+4ytzgnHZi3OGxC5JD72+k6L9q2PwoppsDl+dZQd2wf+0V2cSx5/z7Jwa5I+jcdFk/H/Bf/0LmPr/d1IHAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=6d324b4b832d6a103d677fc6feaad333"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=6d324b4b832d6a103d677fc6feaad333"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=6d324b4b832d6a103d677fc6feaad333"/>
+    <sys_hub_flow_variable action="DELETE" query="model=6d324b4b832d6a103d677fc6feaad333"/>
+    <sys_documentation action="DELETE">
+        <element>req_item</element>
+        <help/>
+        <hint/>
+        <label>req_item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6d324b4b832d6a103d677fc6feaad333</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 08:14:28</sys_created_on>
+        <sys_id>61324b4b832d6a103d677fc6feaad340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 08:14:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>step</element>
+        <help/>
+        <hint/>
+        <label>step</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6d324b4b832d6a103d677fc6feaad333</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 10:23:29</sys_created_on>
+        <sys_id>9bbf978783ed6a103d677fc6feaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 10:23:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>config_object</element>
+        <help/>
+        <hint/>
+        <label>config_object</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6d324b4b832d6a103d677fc6feaad333</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 08:14:29</sys_created_on>
+        <sys_id>a1324b4b832d6a103d677fc6feaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 08:14:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_6d324b4b832d6a103d677fc6feaad333"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_6d324b4b832d6a103d677fc6feaad333"/>
+    <sys_hub_flow action="DELETE">
+        <sys_id>f33eb643832d6a103d677fc6feaad33a</sys_id>
+        <latest_snapshot>6d324b4b832d6a103d677fc6feaad333</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch2-03-20-2025_04-02-2025_0516.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=f33eb643832d6a103d677fc6feaad33a"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=f33eb643832d6a103d677fc6feaad33a^sys_idNOT IN31324b4b832d6a103d677fc6feaad374"/>
+    <sys_flow_subflow_plan action="DELETE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@4a6ef20b</plan>
+        <plan_id display_value="CreateApprovalsForStep">f33eb643832d6a103d677fc6feaad33a</plan_id>
+        <snapshot>6d324b4b832d6a103d677fc6feaad333</snapshot>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 08:14:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>31324b4b832d6a103d677fc6feaad374</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 10:23:29</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</application>
+        <file_path/>
+        <instance_id>2ecb91c8db3ebdd405ef172913961993</instance_id>
+        <instance_name>dev223262</instance_name>
+        <name>sys_hub_flow_f33eb643832d6a103d677fc6feaad33a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=8779000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;27000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;createapprovalsforstep&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"subflow.config_object.config_sys_id","label":"Input➛config_object➛config_sys_id","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e9c0ee9a-e934-4414-aa52-962d6540733d":["log_message"],"5cc4578f-93ff-4841-bdc7-9e386fda39f0":["conditions"]},"attributes":{"uiUniqueId":"2c5419a7-ef1c-4255-94b5-3bf64a9ad9ea","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.config_object.subflow","label":"Input➛config_object➛subflow","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e9c0ee9a-e934-4414-aa52-962d6540733d":["log_message"]},"attributes":{"uiUniqueId":"288b673f-ebc5-4d6a-a5d9-f2d26ff469c1","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.config_object.flow_script_include","label":"Input➛config_object➛flow_script_include","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e9c0ee9a-e934-4414-aa52-962d6540733d":["log_message"]},"attributes":{"uiUniqueId":"e59f2512-0175-4ad4-9358-2aa0d2943c9c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.step","label":"Input➛step","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"1322ed0b-9b71-4abe-80ca-f2e6d6d7eb37":["log_message"],"8ac105c1-00cf-4481-88f9-2c52f418a9f3":["log_message"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e21ef341-814a-4664-b49d-2fa642745a75","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;6d324b4b832d6a103d677fc6feaad333&lt;/master_snapshot&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;CreateApprovalsForStep&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 07:57:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f33eb643832d6a103d677fc6feaad33a&lt;/sys_id&gt;&lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;&lt;sys_name&gt;CreateApprovalsForStep&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_f33eb643832d6a103d677fc6feaad33a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 10:23:29&lt;/sys_updated_on&gt;&lt;type&gt;subflow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f33eb643832d6a103d677fc6feaad33a"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=f33eb643832d6a103d677fc6feaad33a"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=f33eb643832d6a103d677fc6feaad33a"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=f33eb643832d6a103d677fc6feaad33a^sys_idNOT INff3eb643832d6a103d677fc6feaad33a"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;f33eb643832d6a103d677fc6feaad33a&lt;/id&gt;&lt;name&gt;CreateApprovalsForStep&lt;/name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 07:57:09&lt;/sys_created_on&gt;&lt;sys_id&gt;ff3eb643832d6a103d677fc6feaad33a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 07:57:09&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ff3eb643832d6a103d677fc6feaad33a"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=f33eb643832d6a103d677fc6feaad33a^sys_idNOT IN29ce3a07832d6a103d677fc6feaad37d,95ce3a07832d6a103d677fc6feaad379,d4afdb4783ed6a103d677fc6feaad392"/&gt;&lt;sys_complex_object action="INSERT_OR_UPDATE"&gt;&lt;label/&gt;&lt;name&gt;FD19cebe033a2d6a10d8eda66b626987c0&lt;/name&gt;&lt;namespace&gt;FlowDesigner&lt;/namespace&gt;&lt;scope_name&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/scope_name&gt;&lt;serialized_content&gt;{"FlowDesigner:FD19cebe033a2d6a10d8eda66b626987c0":{"subflow":"String","subflow.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"subflow\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"flow_script_include":"String","flow_script_include.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"flow_script_include\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"config_sys_id":"String","config_sys_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"config_sys_id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD19cebe033a2d6a10d8eda66b626987c0.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"config_object\",\"mandatory\":\"false\",\"uiUniqueId\":\"603556c2-c762-4639-a2ee-b54069a27acd\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD19cebe033a2d6a10d8eda66b626987c0\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}}&lt;/serialized_content&gt;&lt;sys_class_name&gt;sys_complex_object&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 07:59:27&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d9cebe03832d6a103d677fc6feaad3c0&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 10:23:28&lt;/sys_updated_on&gt;&lt;type&gt;complex_object_schema&lt;/type&gt;&lt;/sys_complex_object&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;co_type_name=FD19cebe033a2d6a10d8eda66b626987c0,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=603556c2-c762-4639-a2ee-b54069a27acd&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;config_object&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;config_object&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;65000&lt;/max_length&gt;&lt;model display_value="CreateApprovalsForStep"&gt;f33eb643832d6a103d677fc6feaad33a&lt;/model&gt;&lt;model_id&gt;f33eb643832d6a103d677fc6feaad33a&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_f33eb643832d6a103d677fc6feaad33a&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;3&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 07:59:27&lt;/sys_created_on&gt;&lt;sys_id&gt;29ce3a07832d6a103d677fc6feaad37d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 10:23:00&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=29ce3a07832d6a103d677fc6feaad37d"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=035687fd-5f0b-4d12-9a0a-7b4d0a370934&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;sc_req_item&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;req_item&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;req_item&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="CreateApprovalsForStep"&gt;f33eb643832d6a103d677fc6feaad33a&lt;/model&gt;&lt;model_id&gt;f33eb643832d6a103d677fc6feaad33a&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_f33eb643832d6a103d677fc6feaad33a&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sc_req_item"&gt;sc_req_item&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 07:59:27&lt;/sys_created_on&gt;&lt;sys_id&gt;95ce3a07832d6a103d677fc6feaad379&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 10:23:00&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=95ce3a07832d6a103d677fc6feaad379"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e21ef341-814a-4664-b49d-2fa642745a75&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;step&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;step&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="CreateApprovalsForStep"&gt;f33eb643832d6a103d677fc6feaad33a&lt;/model&gt;&lt;model_id&gt;f33eb643832d6a103d677fc6feaad33a&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_f33eb643832d6a103d677fc6feaad33a&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 10:23:00&lt;/sys_created_on&gt;&lt;sys_id&gt;d4afdb4783ed6a103d677fc6feaad392&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 10:23:00&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d4afdb4783ed6a103d677fc6feaad392"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=f33eb643832d6a103d677fc6feaad33a"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=f33eb643832d6a103d677fc6feaad33a"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=f33eb643832d6a103d677fc6feaad33a"/&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=f33eb643832d6a103d677fc6feaad33a^sys_idNOT IN71bf578783ed6a103d677fc6feaad362"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Log"&gt;5bc1bcc6531003003bf1d9109ec587d4&lt;/action_type&gt;&lt;action_type_parent display_value="Log"&gt;0e0ae8c2531003003bf1d9109ec587c8&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="CreateApprovalsForStep"&gt;f33eb643832d6a103d677fc6feaad33a&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 10:23:23&lt;/sys_created_on&gt;&lt;sys_id&gt;71bf578783ed6a103d677fc6feaad362&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 10:23:28&lt;/sys_updated_on&gt;&lt;ui_id&gt;8ac105c1-00cf-4481-88f9-2c52f418a9f3&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/91U0WrbMBT9laLnxNhxva55G+0Kg7WFFbKHUowsXycCWfIkOWlm8u+7smXHzUJJyp4GfrlHR1fnXB3ruSE8J3OSZCzKGPuUxFEYxvhlRZRfR+E1sOTzVX5FJkTSEpAp1DIVsAaB0JqK2mFcFgrLnJtK0O3Co986lK24yDVIMn9+mZCKauxjQZN5c7BktxWkgmbYek5uVoozwO2nyus3fvfajsh1ByDE+tZK505HOCHwakHmgEcVVBiYkJLKnFqltwOigeaPUuyBFZcWuxFHfjX8N7a+DB2vALTEoFsbytRPp4M7DQaNN4Py6fTiQUm4mE5Hox3J3E32XD/bgwvwzGjM/Em15HI5Im8Q2ZNnY/JXrZUeUcHXnhvv8JpyKGgt7M35DqKTHczOcRCf4eDSOeiG/1hZrjB6JHLRoJnwYpkSdSkfuviQwe/iIOsdens08rXB64bKRcplxAemeFqpzY8+D3dctor8olCMiqGi1mqe1dbNtyEgoMRGaUmrCgeRVlqtebsZxZbBUmARFEJt8FDDlzKgzFkLMME0uEP8toUXVHNn8x7b4OZdG870V+3O7Yx6xWk7FkcwTPPKfsF2a/Di3LDbf3IWv/dPQvL2HyzBGLqE0c00jakzpzowFqrd7u8H5AjjY4/JE06zDdCpwvuN94Pqo1b8g2L69n3O/9mDMkuS816UIdRnZfp/j+zLHwrRqjTnBgAA&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=f33eb643832d6a103d677fc6feaad33a"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=f33eb643832d6a103d677fc6feaad33a"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=f33eb643832d6a103d677fc6feaad33a"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=f33eb643832d6a103d677fc6feaad33a"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;config_object&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;config_object&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_f33eb643832d6a103d677fc6feaad33a&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 07:59:27&lt;/sys_created_on&gt;&lt;sys_id&gt;a9ce3a07832d6a103d677fc6feaad37f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 07:59:27&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;step&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;step&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_f33eb643832d6a103d677fc6feaad33a&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 10:23:00&lt;/sys_created_on&gt;&lt;sys_id&gt;dcafdb4783ed6a103d677fc6feaad394&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 10:23:00&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;req_item&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;req_item&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_f33eb643832d6a103d677fc6feaad33a&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 07:59:27&lt;/sys_created_on&gt;&lt;sys_id&gt;e9ce3a07832d6a103d677fc6feaad37c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 07:59:27&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f33eb643832d6a103d677fc6feaad33a"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f33eb643832d6a103d677fc6feaad33a"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;27000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;internal_name&gt;createapprovalsforstep&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"subflow.config_object.config_sys_id","label":"Input➛config_object➛config_sys_id","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e9c0ee9a-e934-4414-aa52-962d6540733d":["log_message"],"5cc4578f-93ff-4841-bdc7-9e386fda39f0":["conditions"]},"attributes":{"uiUniqueId":"2c5419a7-ef1c-4255-94b5-3bf64a9ad9ea","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.config_object.subflow","label":"Input➛config_object➛subflow","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e9c0ee9a-e934-4414-aa52-962d6540733d":["log_message"]},"attributes":{"uiUniqueId":"288b673f-ebc5-4d6a-a5d9-f2d26ff469c1","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.config_object.flow_script_include","label":"Input➛config_object➛flow_script_include","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e9c0ee9a-e934-4414-aa52-962d6540733d":["log_message"]},"attributes":{"uiUniqueId":"e59f2512-0175-4ad4-9358-2aa0d2943c9c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.step","label":"Input➛step","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"1322ed0b-9b71-4abe-80ca-f2e6d6d7eb37":["log_message"],"8ac105c1-00cf-4481-88f9-2c52f418a9f3":["log_message"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e21ef341-814a-4664-b49d-2fa642745a75","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;CreateApprovalsForStep&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="CreateApprovalsForStep"&gt;f33eb643832d6a103d677fc6feaad33a&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 08:14:28&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6d324b4b832d6a103d677fc6feaad333&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 10:23:29&lt;/sys_updated_on&gt;&lt;type&gt;subflow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6d324b4b832d6a103d677fc6feaad333"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=6d324b4b832d6a103d677fc6feaad333"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=6d324b4b832d6a103d677fc6feaad333"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=6d324b4b832d6a103d677fc6feaad333^sys_idNOT IN65324b4b832d6a103d677fc6feaad334"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;6d324b4b832d6a103d677fc6feaad333&lt;/id&gt;&lt;name&gt;CreateApprovalsForStep&lt;/name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 08:14:28&lt;/sys_created_on&gt;&lt;sys_id&gt;65324b4b832d6a103d677fc6feaad334&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 08:14:28&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=65324b4b832d6a103d677fc6feaad334"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=6d324b4b832d6a103d677fc6feaad333^sys_idNOT IN17bf978783ed6a103d677fc6feaad367,29324b4b832d6a103d677fc6feaad342,e9324b4b832d6a103d677fc6feaad335"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e21ef341-814a-4664-b49d-2fa642745a75&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;step&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;step&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="CreateApprovalsForStep"&gt;6d324b4b832d6a103d677fc6feaad333&lt;/model&gt;&lt;model_id&gt;6d324b4b832d6a103d677fc6feaad333&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_6d324b4b832d6a103d677fc6feaad333&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 10:23:29&lt;/sys_created_on&gt;&lt;sys_id&gt;17bf978783ed6a103d677fc6feaad367&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 10:23:29&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=17bf978783ed6a103d677fc6feaad367"/&gt;&lt;sys_complex_object action="INSERT_OR_UPDATE"&gt;&lt;label/&gt;&lt;name&gt;FDad324b4bc32d6a10b0cfc2b133057934&lt;/name&gt;&lt;namespace&gt;FlowDesigner&lt;/namespace&gt;&lt;scope_name&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/scope_name&gt;&lt;serialized_content&gt;{"FlowDesigner:FDad324b4bc32d6a10b0cfc2b133057934":{"subflow":"String","subflow.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"subflow\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"flow_script_include":"String","flow_script_include.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"flow_script_include\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"config_sys_id":"String","config_sys_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"config_sys_id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FDad324b4bc32d6a10b0cfc2b133057934.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"config_object\",\"mandatory\":\"false\",\"uiUniqueId\":\"603556c2-c762-4639-a2ee-b54069a27acd\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDad324b4bc32d6a10b0cfc2b133057934\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}}&lt;/serialized_content&gt;&lt;sys_class_name&gt;sys_complex_object&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 08:14:28&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;61324b4b832d6a103d677fc6feaad335&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 10:23:29&lt;/sys_updated_on&gt;&lt;type&gt;complex_object_schema&lt;/type&gt;&lt;/sys_complex_object&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;co_type_name=FDad324b4bc32d6a10b0cfc2b133057934,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=603556c2-c762-4639-a2ee-b54069a27acd&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;config_object&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;config_object&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;65000&lt;/max_length&gt;&lt;model display_value="CreateApprovalsForStep"&gt;6d324b4b832d6a103d677fc6feaad333&lt;/model&gt;&lt;model_id&gt;6d324b4b832d6a103d677fc6feaad333&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_6d324b4b832d6a103d677fc6feaad333&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;3&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 08:14:28&lt;/sys_created_on&gt;&lt;sys_id&gt;29324b4b832d6a103d677fc6feaad342&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 10:23:29&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=29324b4b832d6a103d677fc6feaad342"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=035687fd-5f0b-4d12-9a0a-7b4d0a370934&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;sc_req_item&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;req_item&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;req_item&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="CreateApprovalsForStep"&gt;6d324b4b832d6a103d677fc6feaad333&lt;/model&gt;&lt;model_id&gt;6d324b4b832d6a103d677fc6feaad333&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_6d324b4b832d6a103d677fc6feaad333&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sc_req_item"&gt;sc_req_item&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 08:14:28&lt;/sys_created_on&gt;&lt;sys_id&gt;e9324b4b832d6a103d677fc6feaad335&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 10:23:29&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e9324b4b832d6a103d677fc6feaad335"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=6d324b4b832d6a103d677fc6feaad333"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=6d324b4b832d6a103d677fc6feaad333"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=6d324b4b832d6a103d677fc6feaad333"/&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=6d324b4b832d6a103d677fc6feaad333^sys_idNOT IN1fbf978783ed6a103d677fc6feaad382"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Log"&gt;5bc1bcc6531003003bf1d9109ec587d4&lt;/action_type&gt;&lt;action_type_parent display_value="Log"&gt;0e0ae8c2531003003bf1d9109ec587c8&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;5bc1bcc6531003003bf1d9109ec587d4&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="CreateApprovalsForStep"&gt;6d324b4b832d6a103d677fc6feaad333&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 10:23:29&lt;/sys_created_on&gt;&lt;sys_id&gt;1fbf978783ed6a103d677fc6feaad382&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 10:23:29&lt;/sys_updated_on&gt;&lt;ui_id&gt;8ac105c1-00cf-4481-88f9-2c52f418a9f3&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+VUXWvbMBT9K0XPjomTel3zNpIVBv2ABbqHUowsXycCWfIkOWlm8t93ZcuOm4aRQN8GfrnHR9I5V+fqpSY8IzMSpyxKGfsST6PxeIpfmkfZbTS+BRZ/vcluSEAkLQCZQq0SARsQCG2oqBzGZa6wzLgpBd09e/RHi7I1F5kGSWYvrwEpqcZ9LGgyq49+nStE0BRPn5F7r+KEMLsrHcTWijPw9b1fNu9ApTMnYxwQeLMgM8DzcyoMBKSgMqNW6V2PaKDZkxQHYM2lxd2II78Z/gfPux47Xg7oiEH7ry8T35wWzhfU0qXVFbOV9tRWrMFe1L3F0ejqUUm4Go0G3R5I3wcHrm/30Z14ZjRk/qJacrkakLeIHMiTIfm71koPqOBrz53u8eYyyGkl7PxyB9HZDiaXOJhe4ODaOWib/1RarjCNJHKZoanorkaJqpCPbc5I7/f5KP4tujg5BZXBCEDpYuZy40OUL9dq+7PLyB2XjSL/UyhGRV9RazVPK+v6WxMQUOBGSUHLEhuRlFpteLMYxRbhSmAR5kJt8VDDVzKkzFkLMdU0vEN80cDPVHNn8wG3wcX7gJidmQtqzMEsRjj5XTklrXXvIWka1Sxhmpf2Gx6wAS/Xtb8Z58n0X+MM8fvxLcAYuoLBXdW1qVLnIzQWyv3+4ytzgnHZi3OGxC5JD72+k6L9q2PwoppsDl+dZQd2wf+0V2cSx5/z7Jwa5I+jcdFk/H/Bf/0LmPr/d1IHAAA=&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=6d324b4b832d6a103d677fc6feaad333"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=6d324b4b832d6a103d677fc6feaad333"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=6d324b4b832d6a103d677fc6feaad333"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=6d324b4b832d6a103d677fc6feaad333"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;req_item&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;req_item&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_6d324b4b832d6a103d677fc6feaad333&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 08:14:28&lt;/sys_created_on&gt;&lt;sys_id&gt;61324b4b832d6a103d677fc6feaad340&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 08:14:28&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;step&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;step&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_6d324b4b832d6a103d677fc6feaad333&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 10:23:29&lt;/sys_created_on&gt;&lt;sys_id&gt;9bbf978783ed6a103d677fc6feaad370&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 10:23:29&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;config_object&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;config_object&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_6d324b4b832d6a103d677fc6feaad333&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 08:14:29&lt;/sys_created_on&gt;&lt;sys_id&gt;a1324b4b832d6a103d677fc6feaad353&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item Flow Tool"&gt;c19180ea8361a6103d677fc6feaad3ee&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 08:14:29&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6d324b4b832d6a103d677fc6feaad333"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6d324b4b832d6a103d677fc6feaad333"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;f33eb643832d6a103d677fc6feaad33a&lt;/sys_id&gt;&lt;latest_snapshot&gt;6d324b4b832d6a103d677fc6feaad333&lt;/latest_snapshot&gt;&lt;compiler_build&gt;glide-yokohama-12-18-2024__patch2-03-20-2025_04-02-2025_0516.zip&lt;/compiler_build&gt;&lt;/sys_hub_flow&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=f33eb643832d6a103d677fc6feaad33a"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=f33eb643832d6a103d677fc6feaad33a^sys_idNOT IN31324b4b832d6a103d677fc6feaad374"/&gt;&lt;sys_flow_subflow_plan action="INSERT_OR_UPDATE"&gt;&lt;plan&gt;com.snc.process_flow.engine.ProcessPlan@4a6ef20b&lt;/plan&gt;&lt;plan_id display_value="CreateApprovalsForStep"&gt;f33eb643832d6a103d677fc6feaad33a&lt;/plan_id&gt;&lt;snapshot&gt;6d324b4b832d6a103d677fc6feaad333&lt;/snapshot&gt;&lt;sys_created_by&gt;jcheung3&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-21 08:14:29&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;31324b4b832d6a103d677fc6feaad374&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;jcheung3&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-21 10:23:29&lt;/sys_updated_on&gt;&lt;/sys_flow_subflow_plan&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2058960855</payload_hash>
+        <record_name>CreateApprovalsForStep</record_name>
+        <reverted_from/>
+        <source>abdac8e683a1a6103d677fc6feaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 10:23:30</sys_created_on>
+        <sys_id>a7bf978783ed6a103d677fc6feaad3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196f25ea1e70000001</sys_recorded_at>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 10:23:30</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>2fbf97877bed6a1025b6117ceb08c8d0</update_guid>
+        <update_guid_history>2fbf97877bed6a1025b6117ceb08c8d0:2058960855,9fbf97873ded6a10c8e951a11cf2d450:1965698421,82bf5787abed6a10327f157814a19f7d:-611799252,10afd3877bed6a10c078673bea498283:-328650502,55c787431b6d6a100728f74db138cbdd:-1083330298,f8c787435c6d6a10900058373f654c78:-2072653993,d3b747430a6d6a10ed83b5b3de914bc4:-1687594827,82b4c34f0a2d6a102eb1009606ba9827:-1789659942,75b4834fb32d6a10f2b8a82e1b03a073:-1905890647,d8b4434fec2d6a1027fb337b5264bdbf:892369326,7a544b0f072d6a1049efea0ff4d396b1:1582674367,9e544b0fed2d6a10f8c9a446fb27385a:1053608042,b8540b0f372d6a100b7cfd1210fd6fb5:-1486856430,b6e24b8b2b2d6a10b1d4d9e3371f59d9:803784840,aee24b8b772d6a10640fa478d8423471:35046294,95e20b8b5b2d6a10958d0b52c3e03ed9:1378369968,b1324b4b292d6a1009368fbeb8bfd37f:-1577488878,a9324b4b8f2d6a105637747c6578132a:1271104440,90320b4ba32d6a10945e52288f818c6f:-1278446035,c460cf87ee2d6a10624f4117093f793a:817117078,a9ce3a07782d6a10237e99bda7d6d399:-1296478658,7b3e7ec3762d6a10d4900ab12e4ef528:-2039433593</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 18:30:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>09d201c67bc14b70867bbe3df22b3890</sys_id>
+        <sys_metadata>f33eb643832d6a103d677fc6feaad33a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CreateApprovalsForStep</sys_name>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_scope_delete display_value="">b1a1e0834a9a45c29568f21f082efbe4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_f33eb643832d6a103d677fc6feaad33a</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_f33eb643832d6a103d677fc6feaad33a">a7bf978783ed6a103d677fc6feaad3d1</sys_update_version>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 18:30:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

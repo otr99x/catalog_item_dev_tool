@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_237456_catalog_0.CatalogItemScript_f0d9eca68365a6103d677fc6feaad38e</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CatalogItemScript_f0d9eca68365a6103d677fc6feaad38e</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CatalogItemScript_f0d9eca68365a6103d677fc6feaad38e = Class.create();
+CatalogItemScript_f0d9eca68365a6103d677fc6feaad38e.prototype = {
+    initialize: function() {
+    },
+
+    type: 'CatalogItemScript_f0d9eca68365a6103d677fc6feaad38e',
+	getData: function(data){
+		return data;
+	},
+	getApprovers: function(req_item){
+		// return an array of users
+		return ['7682abf03710200044e0bfc8bcbe5d1c'];
+	},
+	getApprovalReason: function(req_item){
+		return 'reason from script - ' + req_item.number.toString();
+	}
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>jcheung3</sys_created_by>
+        <sys_created_on>2025-05-21 22:06:33</sys_created_on>
+        <sys_id>7c3042db832daa103d677fc6feaad32d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>CatalogItemScript_f0d9eca68365a6103d677fc6feaad38e</sys_name>
+        <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+        <sys_update_name>sys_script_include_7c3042db832daa103d677fc6feaad32d</sys_update_name>
+        <sys_updated_by>jcheung3</sys_updated_by>
+        <sys_updated_on>2025-05-21 23:46:32</sys_updated_on>
+    </sys_script_include>
+</record_update>

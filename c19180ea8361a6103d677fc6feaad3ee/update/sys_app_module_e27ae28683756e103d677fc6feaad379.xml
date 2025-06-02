@@ -10,32 +10,32 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Cat Item Flow Configs</mobile_title>
+        <mobile_title>Cat Item Flow Provision Configs</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_237456_catalog_0_cat_item_flow_config</name>
-        <order>10</order>
+        <name>x_237456_catalog_0_cat_item_flow_provision_config</name>
+        <order>40</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_237456_catalog_0.cat_item_flow_config_user</roles>
+        <roles>x_237456_catalog_0.cat_item_flow_provision_config_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
-        <sys_created_by>jcheung3</sys_created_by>
-        <sys_created_on>2025-05-19 05:40:00</sys_created_on>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 14:12:32</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>93ab046a83a1a6103d677fc6feaad346</sys_id>
+        <sys_id>e27ae28683756e103d677fc6feaad379</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Cat Item Flow Configs</sys_name>
+        <sys_name>Cat Item Flow Provision Configs</sys_name>
         <sys_overrides/>
         <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
         <sys_policy/>
         <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
-        <sys_update_name>sys_app_module_93ab046a83a1a6103d677fc6feaad346</sys_update_name>
-        <sys_updated_by>jcheung3</sys_updated_by>
-        <sys_updated_on>2025-05-20 19:18:41</sys_updated_on>
+        <sys_update_name>sys_app_module_e27ae28683756e103d677fc6feaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 14:13:11</sys_updated_on>
         <timeline_page/>
-        <title>Cat Item Flow Configs</title>
+        <title>Cat Item Flow Provision Configs</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

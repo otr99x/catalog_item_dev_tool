@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="e7eb8c6a83a1a6103d677fc6feaad3e9" sys_domain="global" table="x_237456_catalog_0_cat_item_flow_config" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>0</position>
+            <sys_created_by>jcheung3</sys_created_by>
+            <sys_created_on>2025-05-21 06:56:13</sys_created_on>
+            <sys_id>13407a8f83a96a103d677fc6feaad364</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_237456_catalog_0_cat_item_flow_config" sys_domain="global" view="Default view">e7eb8c6a83a1a6103d677fc6feaad3e9</sys_ui_section>
+            <sys_updated_by>jcheung3</sys_updated_by>
+            <sys_updated_on>2025-05-21 06:56:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>catalog_item</element>
+            <position>1</position>
+            <sys_created_by>jcheung3</sys_created_by>
+            <sys_created_on>2025-05-21 06:56:13</sys_created_on>
+            <sys_id>db407a8f83a96a103d677fc6feaad364</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_237456_catalog_0_cat_item_flow_config" sys_domain="global" view="Default view">e7eb8c6a83a1a6103d677fc6feaad3e9</sys_ui_section>
+            <sys_updated_by>jcheung3</sys_updated_by>
+            <sys_updated_on>2025-05-21 06:56:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>main_flow</element>
+            <position>2</position>
+            <sys_created_by>jcheung3</sys_created_by>
+            <sys_created_on>2025-05-21 06:56:13</sys_created_on>
+            <sys_id>53407a8f83a96a103d677fc6feaad365</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_237456_catalog_0_cat_item_flow_config" sys_domain="global" view="Default view">e7eb8c6a83a1a6103d677fc6feaad3e9</sys_ui_section>
+            <sys_updated_by>jcheung3</sys_updated_by>
+            <sys_updated_on>2025-05-21 06:56:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sub_flow</element>
+            <position>3</position>
+            <sys_created_by>jcheung3</sys_created_by>
+            <sys_created_on>2025-05-21 06:56:13</sys_created_on>
+            <sys_id>d7407a8f83a96a103d677fc6feaad365</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_237456_catalog_0_cat_item_flow_config" sys_domain="global" view="Default view">e7eb8c6a83a1a6103d677fc6feaad3e9</sys_ui_section>
+            <sys_updated_by>jcheung3</sys_updated_by>
+            <sys_updated_on>2025-05-21 06:56:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>flow_script_include</element>
+            <position>4</position>
+            <sys_created_by>jcheung3</sys_created_by>
+            <sys_created_on>2025-05-21 06:56:13</sys_created_on>
+            <sys_id>5f407a8f83a96a103d677fc6feaad365</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_237456_catalog_0_cat_item_flow_config" sys_domain="global" view="Default view">e7eb8c6a83a1a6103d677fc6feaad3e9</sys_ui_section>
+            <sys_updated_by>jcheung3</sys_updated_by>
+            <sys_updated_on>2025-05-21 06:56:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

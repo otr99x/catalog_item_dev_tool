@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="user_group_by_script" label="User/Group by script" language="en" table="x_237456_catalog_0_cat_item_flow_approval_config">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>user_group_by_script</element>
+            <help/>
+            <hint/>
+            <label>User/Group by script</label>
+            <language>en</language>
+            <name>x_237456_catalog_0_cat_item_flow_approval_config</name>
+            <plural>User/Group by scripts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jcheung3</sys_created_by>
+            <sys_created_on>2025-05-20 19:51:17</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>User/Group by script</sys_name>
+            <sys_package display_value="Catalog Item Flow Tool" source="x_237456_catalog_0">c19180ea8361a6103d677fc6feaad3ee</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Catalog Item Flow Tool">c19180ea8361a6103d677fc6feaad3ee</sys_scope>
+            <sys_update_name>sys_documentation_x_237456_catalog_0_cat_item_flow_approval_config_user_group_by_script_en</sys_update_name>
+            <sys_updated_by>jcheung3</sys_updated_by>
+            <sys_updated_on>2025-05-20 19:51:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

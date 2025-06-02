@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="bd4bc82a83a1a6103d677fc6feaad39c" label="Cat Item Flow Config" max_length="40" name="x_237456_catalog_0_cat_item_flow_config" type="collection"/>
+    <element db_object_id="bd4bc82a83a1a6103d677fc6feaad39c" label="Cat Item Flow Config" max_length="40" name="x_237456_catalog_0_cat_item_flow_config" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="encode_utf8=false" display="true" label="Catalog Item" max_length="32" name="catalog_item" reference="sc_cat_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Flow Script Include" max_length="100" name="flow_script_include" type="string"/>
+        <element attributes="encode_utf8=false" default="d3edc46a83a1a6103d677fc6feaad352" label="Main Flow" max_length="32" name="main_flow" read_only="true" reference="sys_hub_flow" type="reference"/>
+        <element attributes="encode_utf8=false" label="Sub Flow" max_length="32" name="sub_flow" reference="sys_hub_flow" reference_qual="type=subflow^EQ" reference_qual_condition="type=subflow^EQ" type="reference"/>
+        <index name="index">
+            <element name="catalog_item"/>
+        </index>
+        <index name="index2">
+            <element name="main_flow"/>
+        </index>
+        <index name="index3">
+            <element name="sub_flow"/>
+        </index>
+    </element>
 </database>
